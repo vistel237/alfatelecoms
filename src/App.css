@@ -9,7 +9,7 @@
 }
 
 body{
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*************Navbar***********/
@@ -114,6 +114,30 @@ nav ul li{
   z-index: 1;
 }
 
+/****************about**************/
+.about-heading{
+  color: var(--primary-bleu);
+  text-transform: uppercase;
+}
+
+.head_title > p{
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.head_title > h1{
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.main_about_content{
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.accordion-body{
+  text-align: justify;
+}
+
 /**********responssive*************/
 @media (max-width: 768px) {
   .particules-canvas{
@@ -127,4 +151,17 @@ nav ul li{
   .typed-text{
     font-size: 1.3rem !important;
   }
+
+  .image-about{
+    width: 350px;
+    height: 190px;
+  }
 }
+
+@media (max-width: 360px) {
+  .image-about{
+    width: 335px;
+    height: 190px;
+  }
+}
+
