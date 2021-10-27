@@ -3,7 +3,7 @@ import Domo from "../domotic.jpg";
 
 export const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-sm-12">
                     <div className="main_about_area">

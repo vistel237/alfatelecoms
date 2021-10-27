@@ -4,6 +4,11 @@ import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import { AboutMe } from './components/AboutMe';
+import { Services } from './components/Services';
+import { Portfolio } from './components/Portfolio';
+import { Testimonials } from './components/Testimonials';
+import { Contacts } from './components/Contacts';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -33,6 +38,11 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contacts />
+      <Footer />
     </>
     );
 }
